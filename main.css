@@ -1,3 +1,4 @@
+@import "bourbon";
 body {
   color: white;
   text-align: center;
@@ -6,11 +7,11 @@ body {
   font-family: 'Play', sans-serif;
 }
 
-  .container {
+h1 {
   height: 500px;
   width: 500px;
-  background-color: #000000;
   vertical-align: center;
+  @include linear-gradient(to top, pink, purple);
 }
 #clock {
   padding-top: 250px;
